@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5290691638424181475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5290691638424181472}
+  - component: {fileID: 5290691638424181473}
+  - component: {fileID: 5290691638424181474}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5290691638424181472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290691638424181475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5290691638424181473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290691638424181475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da66e08067cdd5e46b492e0e9d71edfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllItems:
+  - {fileID: 11400000, guid: 23145b9d73a2e4a40aaf7ec146472d16, type: 2}
+  - {fileID: 11400000, guid: 4f1d9711beaec8f4fb72307656160c70, type: 2}
+  - {fileID: 11400000, guid: d44e3ed8ba3b0ed449b28e3182ce061c, type: 2}
+  - {fileID: 11400000, guid: 61464fd1c9438cc4bb2862582bcb6a1e, type: 2}
+--- !u!114 &5290691638424181474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290691638424181475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0745a3f2153edbb499765a547401c151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllOffers:
+  - {fileID: 11400000, guid: ee5e5e14bc971b44c94e2aef0dfafa3a, type: 2}
+  - {fileID: 11400000, guid: 3d1695bafcda890458e842bab6412e0b, type: 2}
+  AvaliableOffers:
+  - {fileID: 11400000, guid: ee5e5e14bc971b44c94e2aef0dfafa3a, type: 2}
+  - {fileID: 11400000, guid: 3d1695bafcda890458e842bab6412e0b, type: 2}
+  LoadedOffers: []

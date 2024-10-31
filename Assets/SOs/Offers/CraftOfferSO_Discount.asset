@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048c70da8a0bfc341861e0970f0c9290, type: 3}
+  m_Name: CraftOfferSO_Discount
+  m_EditorClassIdentifier: 
+  ShopItemUID: shop_axe_discount
+  PlayStoreUID: android_shop_axe
+  OfferName: Iron Axe Premium
+  OfferDescription: Craft premium iron axe with even less materials
+  Items:
+  - Item: {fileID: 11400000, guid: 4f1d9711beaec8f4fb72307656160c70, type: 2}
+    Count: 2
+  - Item: {fileID: 11400000, guid: d44e3ed8ba3b0ed449b28e3182ce061c, type: 2}
+    Count: 3
+  - Item: {fileID: 11400000, guid: 61464fd1c9438cc4bb2862582bcb6a1e, type: 2}
+    Count: 2
+  ResultItem: {fileID: 11400000, guid: 23145b9d73a2e4a40aaf7ec146472d16, type: 2}
+  DebugPrice: 5
+  DebugDiscount: 0.5
